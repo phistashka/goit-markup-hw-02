@@ -53,6 +53,7 @@ body {
   color: #404bbf;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
+  cursor: pointer;
 }
 
 .list-button-web {
@@ -65,6 +66,7 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
+  cursor: pointer;
 }
 
 .list-button-app {
@@ -77,6 +79,7 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
+  cursor: pointer;
 }
 
 .list-button-design {
@@ -89,6 +92,7 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
+  cursor: pointer;
 }
 
 .list-button-marketing {
@@ -101,6 +105,7 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
+  cursor: pointer;
 }
 .list-button-all:hover,
 .list-button-all:focus,
