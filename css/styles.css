@@ -1,9 +1,162 @@
-.headings {
-  font-family: 'Roboto';
+body {
+  font-family: Roboto;
+  font-weight: Regular;
   font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+.logo-header {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.list-links {
+  font-weight: 500;
+  text-decoration: none;
+}
+.list-links:hover,
+.list-links:focus {
+  text-decoration: underline;
+  color: #404bbf;
+}
+.list-address {
+  font-weight: 400;
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+}
+.list-button-all {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  color: #404bbf;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+}
+
+.list-button-web {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+}
+
+.list-button-app {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+}
+
+.list-button-design {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+}
+
+.list-button-marketing {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  border: 1px solid #e7e9fc;
+}
+.list-button-all:hover,
+.list-button-all:focus,
+.list-button-web:hover,
+.list-button-web:focus,
+.list-button-app:hover,
+.list-button-app:focus,
+.list-button-design:hover,
+.list-button-design:focus,
+.list-button-marketing:hover,
+.list-button-marketing:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+.main {
+  background: #2e2f42;
+}
+.effective-solutions {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.main-button {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.list-img-title-features {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.list-img-title-features-text {
+  font-weight: 400;
+  color: #434455;
+}
+footer {
+  background: #2e2f42;
+}
+.logo-footer {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  background: #2e2f42;
+}
+.quotation {
+  font-weight: 400;
+  color: #e7e9fc;
+  font-weight: 400;
+  background: #2e2f42;
 }
