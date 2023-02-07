@@ -1,60 +1,54 @@
 body {
-  font-family: Roboto;
-  font-weight: Regular;
-  font-style: normal;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
 }
 .logo {
-  color: #4d5ae5;
-  font-family: 'Raleway';
   font-weight: 800;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
+  line-height: 1.3;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
 }
 .list {
   list-style-type: none;
 }
 .logo-header {
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .list-links {
   font-weight: 500;
+  color: currentColor;
   text-decoration: none;
 }
 .list-links:hover,
 .list-links:focus {
-  text-decoration: underline;
+  text-decoration: none;
   color: #404bbf;
 }
 .list-address {
-  font-weight: 400;
   color: #434455;
   text-decoration: none;
   font-style: normal;
 }
 .list-address:hover,
 .list-address:focus {
-  text-decoration: underline;
+  text-decoration: none;
   color: #404bbf;
 }
 
 .list-button-all {
-  font-family: inherit;
-  font-style: inherit;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
   letter-spacing: 0.04em;
   color: #404bbf;
   background-color: #f4f4fd;
@@ -63,11 +57,11 @@ body {
 }
 
 .list-button-web {
-  font-family: inherit;
-  font-style: inherit;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -76,11 +70,11 @@ body {
 }
 
 .list-button-app {
-  font-family: inherit;
-  font-style: inherit;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -89,11 +83,11 @@ body {
 }
 
 .list-button-design {
-  font-family: inherit;
-  font-style: inherit;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -102,11 +96,11 @@ body {
 }
 
 .list-button-marketing {
-  font-family: inherit;
-  font-style: inherit;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
   font-weight: 500;
-  font-size: inherit;
-  line-height: inherit;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
@@ -129,16 +123,21 @@ body {
 .our-team {
   background-color: #f4f4fd;
 }
-.main {
+.section-one {
   background: #2e2f42;
 }
-.effective-solutions {
+.main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .main-button {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -155,24 +154,47 @@ body {
   color: #2e2f42;
 }
 .list-img-title-features-text {
-  font-weight: 400;
   color: #434455;
 }
-footer {
+.what-are-we-doing {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+.section-four {
+  background: #f4f4fd;
+}
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+.list-img-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.list-img-name-profession {
+  color: #434455;
+}
+.footer {
   background: #2e2f42;
 }
 .logo-footer {
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo-footer-text {
   color: #f4f4fd;
-  background: #2e2f42;
 }
 .quotation {
-  font-weight: 400;
   color: #e7e9fc;
-  font-weight: 400;
-  background: #2e2f42;
 }
