@@ -43,6 +43,12 @@ body {
   text-decoration: none;
   font-style: normal;
 }
+.list-address:hover,
+.list-address:focus {
+  text-decoration: underline;
+  color: #404bbf;
+}
+
 .list-button-all {
   font-family: inherit;
   font-style: inherit;
@@ -137,6 +143,11 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus {
+  background: #404bbf;
 }
 .list-img-title-features {
   font-weight: 500;
