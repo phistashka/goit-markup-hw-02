@@ -1,10 +1,23 @@
+:root {
+  --dark: #2e2f42;
+  --primary-brand: #4d5ae5;
+  --background-buttontext-hover: #ffffff;
+  --pressed-state: #404bbf;
+  --text: #434455;
+  --light: #f4f4fd;
+  --accent: #e7e9fc;
+  --success: #31d0aa;
+  --subtle-text: #8e8f99;
+  --modal-overlay: rgba(46, 47, 66, 0.4);
+  --hero-background: rgba(46, 47, 66, 0.7);
+}
 body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  background-color: #ffffff;
+  color: var(--dark);
+  background: var(--background-buttontext-hover);
 }
 .logo {
   font-weight: 800;
@@ -14,13 +27,13 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
 .list {
   list-style-type: none;
 }
 .logo-header {
-  color: #2e2f42;
+  color: var(--dark);
 }
 .list-links {
   font-weight: 500;
@@ -30,81 +43,76 @@ body {
 .list-links:hover,
 .list-links:focus {
   text-decoration: none;
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 .list-address {
-  color: #434455;
+  color: var(--text);
   text-decoration: none;
   font-style: normal;
 }
 .list-address:hover,
 .list-address:focus {
   text-decoration: none;
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .list-button-all {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #404bbf;
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  color: var(--primary-brand);
+  background: var(--light);
+  border: 1px solid var(--accent);
   cursor: pointer;
 }
 
 .list-button-web {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  color: var(--primary-brand);
+  background: var(--light);
+  border: 1px solid var(--accent);
   cursor: pointer;
 }
 
 .list-button-app {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  color: var(--primary-brand);
+  background: var(--light);
+  border: 1px solid var(--accent);
   cursor: pointer;
 }
 
 .list-button-design {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  color: var(--primary-brand);
+  background: var(--light);
+  border: 1px solid var(--accent);
   cursor: pointer;
 }
 
 .list-button-marketing {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  color: var(--primary-brand);
+  background: var(--light);
+  border: 1px solid var(--accent);
   cursor: pointer;
 }
 .list-button-all:hover,
@@ -117,56 +125,49 @@ body {
 .list-button-design:focus,
 .list-button-marketing:hover,
 .list-button-marketing:focus {
-  background-color: #404bbf;
-  color: #ffffff;
-}
-.our-team {
-  background-color: #f4f4fd;
+  background: var(--pressed-state);
+  color: var(--background-buttontext-hover);
 }
 .section-one {
-  background: #2e2f42;
+  background: var(--dark);
 }
 .main-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--background-buttontext-hover);
 }
 .main-button {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
+  color: var(--background-buttontext-hover);
+  background: var(--primary-brand);
   cursor: pointer;
 }
 .main-button:hover,
 .main-button:focus {
-  background: #404bbf;
+  background: var(--pressed-state);
 }
 .list-img-title-features {
   font-weight: 500;
   font-size: 20px;
-  color: #2e2f42;
+  line-height: 1.2;
 }
 .list-img-title-features-text {
-  color: #434455;
+  color: var(--text);
 }
 .what-are-we-doing {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
 }
 .section-four {
-  background: #f4f4fd;
+  background: var(--light);
 }
 .our-team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
@@ -177,10 +178,10 @@ body {
   line-height: 1.2;
 }
 .list-img-name-profession {
-  color: #434455;
+  color: var(--text);
 }
 .footer {
-  background: #2e2f42;
+  background: var(--dark);
 }
 .logo-footer {
   font-family: Raleway, sans-serif;
@@ -189,12 +190,12 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand);
   text-decoration: none;
 }
 .logo-footer-text {
-  color: #f4f4fd;
+  color: var(--light);
 }
 .quotation {
-  color: #e7e9fc;
+  color: var(--accent);
 }
